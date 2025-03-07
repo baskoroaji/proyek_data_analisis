@@ -48,6 +48,5 @@ jupyter notebook
 
 ## Run steamlit app
 ```
-cd Dashboard
-streamlit run dashboard.py
+streamlit run Dashboard/dashboard.py
 ```
