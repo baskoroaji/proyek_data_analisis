@@ -45,7 +45,6 @@ tzdata==2025.1
 urllib3==2.3.0
 watchdog==6.0.0
 zipp==3.21.0
-PS D:\Proyek Analisis Data\Dashboard>  pip freeze requirements.txt
 altair==5.5.0
 attrs==25.1.0
 babel==2.17.0
@@ -92,8 +91,6 @@ tzdata==2025.1
 urllib3==2.3.0
 watchdog==6.0.0
 zipp==3.21.0
-PS D:\Proyek Analisis Data\Dashboard> cd..
-PS D:\Proyek Analisis Data>  pip freeze requirements.txt
 altair==5.5.0
 attrs==25.1.0
 babel==2.17.0
