@@ -9,8 +9,7 @@ sns.set(style='dark')
 
 # Dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-DIR_PATH = os.path.join(os.path.dirname(__file__), "..", "Data", "all_data.csv")
-all_df = pd.read_csv(DIR_PATH)
+all_df = pd.read_csv('Data/all_data.csv')
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
 all_df.reset_index(inplace=True)
 
@@ -27,7 +26,7 @@ with st.sidebar:
     st.title("Mohamad Baskoro Aji")
 
     # Logo Image
-    st.image("/Dashboard/logo.png")
+    st.image("Dashboard/logo.png")
 
     # Date Range
     start_date, end_date = st.date_input(
